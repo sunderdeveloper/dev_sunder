@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@layer utilities {
+  .font-roboto {
+    font-family: "Roboto Slab", sans-serif;
+  }
+  .font-lato {
+    font-family: "Lato", sans-serif;
+  }
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+.animate-shimmer {
+  animation: shimmer 1s infinite;
+}
