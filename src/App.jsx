@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="w-12/12 h-full bg-linear-to-tr from-[#0D1225] to-[#411D30] pb-18">
       <Header />
-      <div className="flex items-start w-11/12 mx-auto gap-8">
+      <div className="flex lg:flex-row items-start w-11/12 mx-auto gap-8 flex-col">
         <Profile />
         <Routes>
           <Route path="/" element={<About />} />

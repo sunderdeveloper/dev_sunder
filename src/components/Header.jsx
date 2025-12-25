@@ -8,11 +8,9 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between px-15 py-6 mb-10">
       <div>
-        <h1 className="text-4xl font-semibold text-transparent bg-linear-to-r from-orange-400 to-orange-800 bg-clip-text">
-          Dev_Sunder
-        </h1>
+        <h1 className="text-4xl font-semibold text-gray-200">Dev_Sunder</h1>
       </div>
-      <nav>
+      <nav className="hidden lg:block">
         <ul className="flex items-center gap-6">
           <li className="flex items-center gap-2 px-6 py-2 bg-[#0d12255a] rounded-lg text-md text-white font-normal cursor-pointer">
             <FaRegUser className="text-md font-normal" />{" "}

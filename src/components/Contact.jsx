@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-9/12 mx-auto bg-[#070b1a] p-6 rounded-2xl">
+    <div className=" w-full md:w-9/12 mx-auto bg-[#070b1a] p-6 rounded-2xl">
       <h1 className="text-3xl text-white font-roboto font-normal w-fit border-b-3 pb-2 border-blue-700 mb-6">
         Contact
       </h1>
@@ -10,7 +10,7 @@ const Contact = () => {
         Have a project, idea, or question? Let’s connect and build something
         great together.
       </h3>
-      <div className="mt-10 px-8">
+      <div className="mt-10 md:px-8">
         <form action="#" className="grid grid-cols-1 gap-x-6 gap-y-6">
           <input
             type="text"
@@ -31,6 +31,10 @@ const Contact = () => {
             placeholder="Message*"
             className="border-b-2 border-gray-800 w-full mx-2 p-6 text-white placeholder:text-gray-200 text-xl"
           ></textarea>
+
+          <button className="bg-blue-700 w-fit px-6 py-2 text-md text-white text-[20px] font-normal rounded-4xl my-4 mx-auto cursor-pointer">
+            Submit
+          </button>
         </form>
       </div>
     </div>

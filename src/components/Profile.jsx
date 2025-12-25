@@ -8,9 +8,9 @@ import profilePic from "../assets/profile-pic.jpeg";
 
 const Profile = () => {
   return (
-    <div className="w-3/12 mx-auto sticky top-10">
+    <div className="w-full lg:w-3/12 mx-auto lg:sticky md:top-10">
       <img className="w-[250px] mx-auto rounded-2xl" src={profilePic} alt="" />
-      <div className="w-full h-auto bg-[#070b1a] px-6 py-4 pt-20 rounded-2xl -mt-18">
+      <div className="w-full h-auto bg-[#070b1a] px-6 py-4 pt-20 rounded-2xl -mt-20">
         <h1 className="font-normal font-roboto capitalize text-[28px] text-white my-2 mb-3 text-center">
           Neknar Sunder
         </h1>
@@ -47,13 +47,13 @@ const Profile = () => {
           </div>
         </div>
         <ul className="flex items-center gap-3 justify-center mb-4 mt-6">
-          <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer">
+          <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer flex items-center justify-center">
             <FaGithub />
           </li>
-          <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer">
+          <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer flex items-center justify-center">
             <FaLinkedinIn />
           </li>
-          <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer">
+          <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer flex items-center justify-center">
             <FaDiscord />
           </li>
         </ul>

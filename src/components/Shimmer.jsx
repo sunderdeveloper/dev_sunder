@@ -2,9 +2,9 @@ import React from "react";
 
 const Shimmer = () => {
   return (
-    <div className="w-12/12 h-screen bg-linear-to-tr from-[#0D1225] to-[#411D30] p-4 md:p-10 flex gap-6 justify-center md:flex-row flex-col">
-      <div className="w-12/12 md:w-3/12 h-full md:h-12/12 bg-[#ffffff19]  rounded-lg p-10">
-        <div className="w-full h-1/3 bg-[#ffffff25] rounded-md md:rounded-lg relative overflow-hidden">
+    <div className="w-full h-screen bg-linear-to-tr from-[#0D1225] to-[#411D30] p-4 md:p-10 flex gap-6 justify-center md:flex-row flex-col">
+      <div className="w-full md:w-3/12 h-full md:h-full bg-[#ffffff19]  rounded-lg p-10">
+        <div className="w-full h-3/12 bg-[#ffffff25] rounded-md md:rounded-lg relative overflow-hidden">
           <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
         </div>
         <div className="w-full h-12 bg-[#ffffff25] mt-6 rounded-md relative overflow-hidden mb-6">
@@ -50,7 +50,7 @@ const Shimmer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-1/2 md:w-8/12 md:h-12/12 bg-[#ffffff19] rounded-lg p-10">
+      <div className="w-full h-full md:w-8/12 md:h-full bg-[#ffffff19] rounded-lg p-10">
         <div className="w-full h-4 md:h-12 bg-[#ffffff25] rounded-xs md:rounded-md overflow-hidden relative mb-4">
           <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
         </div>
@@ -65,34 +65,34 @@ const Shimmer = () => {
           <div className="w-1/3 h-15 md:h-25 bg-[#ffffff25] rounded-md relative overflow-hidden flex flex-col items-start justify-center p-4">
             <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
             <div className="w-9/12 h-5 bg-[#ffffff25] rounded-xs mb-2"></div>
-            <div className="w-12/12 h-5 bg-[#ffffff25] rounded-xs"></div>
+            <div className="w-full h-5 bg-[#ffffff25] rounded-xs"></div>
           </div>
           <div className="w-1/3 h-15 md:h-25 bg-[#ffffff25] rounded-md relative overflow-hidden flex flex-col items-start justify-center p-4">
             <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
             <div className="w-9/12 h-5 bg-[#ffffff25] rounded-xs mb-2"></div>
-            <div className="w-12/12 h-5 bg-[#ffffff25] rounded-xs"></div>
+            <div className="w-full h-5 bg-[#ffffff25] rounded-xs"></div>
           </div>
           <div className="w-1/3 h-15 md:h-25 bg-[#ffffff25] rounded-md relative overflow-hidden flex flex-col items-start justify-center p-4">
             <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
             <div className="w-9/12 h-5 bg-[#ffffff25] rounded-xs mb-2"></div>
-            <div className="w-12/12 h-5 bg-[#ffffff25] rounded-xs"></div>
+            <div className="w-full h-5 bg-[#ffffff25] rounded-xs"></div>
           </div>
         </div>
         <div className="flex items-center mt-6 md:mt-10 gap-5">
           <div className="w-1/3 h-15 md:h-25 bg-[#ffffff25] rounded-md relative overflow-hidden flex flex-col items-start justify-center p-4">
             <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
             <div className="w-9/12 h-5 bg-[#ffffff25] rounded-xs mb-2"></div>
-            <div className="w-12/12 h-5 bg-[#ffffff25] rounded-xs"></div>
+            <div className="w-full h-5 bg-[#ffffff25] rounded-xs"></div>
           </div>
           <div className="w-1/3 h-15 md:h-25 bg-[#ffffff25] rounded-md relative overflow-hidden flex flex-col items-start justify-center p-4">
             <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
             <div className="w-9/12 h-5 bg-[#ffffff25] rounded-xs mb-2"></div>
-            <div className="w-12/12 h-5 bg-[#ffffff25] rounded-xs"></div>
+            <div className="w-full h-5 bg-[#ffffff25] rounded-xs"></div>
           </div>
           <div className="w-1/3 h-15 md:h-25 bg-[#ffffff25] rounded-md relative overflow-hidden flex flex-col items-start justify-center p-4">
             <div className="absolute inset-0 -translate-x-full bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
             <div className="w-9/12 h-5 bg-[#ffffff25] rounded-xs mb-2"></div>
-            <div className="w-12/12 h-5 bg-[#ffffff25] rounded-xs"></div>
+            <div className="w-full h-5 bg-[#ffffff25] rounded-xs"></div>
           </div>
         </div>
 
