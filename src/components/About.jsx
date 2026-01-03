@@ -3,7 +3,7 @@ import IconsSlider from "./IconsSlider";
 
 const About = () => {
   return (
-    <div className="w-full lg:w-9/12 md:mx-auto bg-[#070b1a] p-6 rounded-2xl">
+    <div className="w-full lg:w-9/12 lg:mx-auto bg-[#070b1a] p-6 rounded-2xl">
       <h1 className="text-xl md:text-3xl text-white font-roboto font-normal w-fit border-b-3 pb-2 border-blue-700 mb-6">
         About
       </h1>
