@@ -44,7 +44,7 @@ const About = () => {
           </h4>
         </div>
         <div className="border border-gray-600 py-3 px-5 rounded-xl ">
-          <span className="text-gray-400 text-sm">2020 - 2023</span>
+          <span className="text-gray-400 text-sm">2020</span>
           <h3 className="lg:text-xl text-white font-semibold">
             SSC - Telangana State Board
           </h3>

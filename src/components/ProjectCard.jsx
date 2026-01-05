@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCode } from "react-icons/fa6";
+import { FaLink } from "react-icons/fa6";
 
 const ProjectCard = ({ projectDetails, close }) => {
   console.log(projectDetails);
@@ -9,37 +10,35 @@ const ProjectCard = ({ projectDetails, close }) => {
         <h3 className="font-bold text-3xl text-center mb-4">
           {projectDetails.title}
         </h3>
-        <div className="flex lg:items-center items-start lg:gap-0 gap-2 justify-between mt-6 lg:flex-row flex-col">
+        <div className="flex lg:items-center items-start lg:gap-0 gap-2 justify-between my-6 flex-col">
           <div className="flex items-center gap-2">
             <FaCode className="text-xl" />
-            <h3 className="lg:text-lg text-md font-semibold">
+            <h3 className="lg:text-xl text-md font-semibold">
               Tech Stack: {projectDetails.category}
             </h3>
           </div>
           <div className="flex items-center gap-2">
-            <FaCode className="text-xl" />
-            <h3 className="lg:text-lg text-md font-semibold">
+            <FaLink className="text-xl" />
+            <h3 className="lg:text-xl text-md font-semibold">
               Link:{" "}
-              <a href={projectDetails.projectLink} target="_blank">
+              <a
+                href={projectDetails.projectLink}
+                target="_blank"
+                className="lg:inline block"
+              >
                 {" "}
                 {projectDetails.projectLink}
               </a>
             </h3>
           </div>
         </div>
-        <p className="my-6 text-[17px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
-          expedita porro. Iusto id at officia, molestiae explicabo tenetur,
-          minima harum porro assumenda cum libero? Tempore facere magni facilis
-          mollitia voluptatibus!
-        </p>
 
         <div>
           <img src={projectDetails.image} alt="" className="rounded-lg" />
         </div>
       </div>
       <span
-        className="text-white w-10 h-10 bg-[#323232] rounded-3xl text-center text-2xl cursor-pointer"
+        className="text-white flex items-center justify-center rounded-3xl text-3xl font-semibold cursor-pointer"
         onClick={() => close()}
       >
         &times;

@@ -5,6 +5,7 @@ import { MdPhoneAndroid } from "react-icons/md";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import profilePic from "../assets/profile-pic.jpeg";
+import resume from "../assets/my-resume.pdf";
 
 const Profile = () => {
   return (
@@ -24,7 +25,9 @@ const Profile = () => {
             </span>
             <div>
               <h4 className="text-white text-sm">Phone</h4>
-              <h3 className="text-white">(+91) 9652344724</h3>
+              <h3 className="text-white">
+                <a href="tel:+919652344724">(+91) 9652344724</a>
+              </h3>
             </div>
           </div>
           <div className="flex items-center gap-4 justify-start my-4 pb-4 border-b border-gray-800">
@@ -33,7 +36,11 @@ const Profile = () => {
             </span>
             <div>
               <h4 className="text-white text-sm">Email</h4>
-              <h3 className="text-white">sunderneknar@gmail.com</h3>
+              <h3 className="text-white">
+                <a href="mailto:sunderneknar@gmail.com">
+                  sunderneknar@gmail.com
+                </a>
+              </h3>
             </div>
           </div>
           <div className="flex items-center gap-4 justify-start my-4 pb-4 border-b border-gray-800">
@@ -48,15 +55,28 @@ const Profile = () => {
         </div>
         <ul className="flex items-center gap-3 justify-center mb-4 mt-6">
           <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer flex items-center justify-center">
-            <FaGithub />
+            <a href="https://github.com/sunderdeveloper" target="_blank">
+              <FaGithub />
+            </a>
           </li>
           <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer flex items-center justify-center">
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/neknarsunder/" target="_blank">
+              <FaLinkedinIn />
+            </a>
           </li>
           <li className="bg-[#656c8941] w-10 h-10 text-white rounded-md text-center p-2 text-xl cursor-pointer flex items-center justify-center">
-            <FaDiscord />
+            <a href="#" target="_blank">
+              <FaDiscord />
+            </a>
           </li>
         </ul>
+        <div className="text-center">
+          <button className="bg-blue-600 text-white px-6 py-2 text-lg font-semibold rounded-md mb-3 mt-2">
+            <a href={resume} target="_blank">
+              Download Resume
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
