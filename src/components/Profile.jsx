@@ -5,7 +5,7 @@ import { MdPhoneAndroid } from "react-icons/md";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import profilePic from "../assets/profile-pic.jpeg";
-import resume from "../assets/my-resume.pdf";
+import resume from "../assets/Sunder_Neknar_Frontend_Developer.pdf";
 
 const Profile = () => {
   return (
