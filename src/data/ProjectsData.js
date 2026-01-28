@@ -3,8 +3,7 @@ import crypto from "../assets/crypto-app.png";
 import keyword from "../assets/keyword-finder.png";
 import udayGoutam from "../assets/druday-goutam.png";
 import airaa from "../assets/airaa-clinic.png";
-import aceClinic from "../assets/ace-skin-clinic.png";
-import binduReddy from "../assets/bindu-reddy.png";
+
 import saiPrasuna from "../assets/sai-prasuna.png";
 import sridharOrtho from "../assets/sridhar-ortho.png";
 import SR from "../assets/sr-hospital.png";
@@ -15,8 +14,6 @@ import NagarjunaSolar from "../assets/nagarjuna-solar.png";
 import NamahaUPVC from "../assets/namaha.png";
 import Aastha from "../assets/aastha.png";
 import sanjivaniHomeo from "../assets/sanjivani-homeo.png";
-import aestheticAura from "../assets/aesthetic-aura.png";
-import lahotiDental from "../assets/lahotis-dental.png";
 
 const ProjectsData = [
   {
@@ -54,34 +51,7 @@ const ProjectsData = [
     projectLink: "https://airaamultispecialityclinic.com/",
     image: airaa,
   },
-  {
-    id: 6,
-    title: "Aesthetic Aura Hair & Skin Clinic",
-    category: "Javascript",
-    projectLink: "https://aestheticauraclinics.com/",
-    image: aestheticAura,
-  },
-  {
-    id: 7,
-    title: "Lahoti's Dental",
-    category: "Javascript",
-    projectLink: "https://lahotisdental.com/",
-    image: lahotiDental,
-  },
-  {
-    id: 8,
-    title: "Ace Skin & Hair Clinic",
-    category: "Javascript",
-    projectLink: "https://drajaydodeja.com/",
-    image: aceClinic,
-  },
-  {
-    id: 9,
-    title: "Dr. S. Bindhu Reddy",
-    category: "Javascript",
-    projectLink: "https://drbindhureddy.com/",
-    image: binduReddy,
-  },
+
   {
     id: 10,
     title: "Dr. V. Sai Prasuna",
