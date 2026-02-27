@@ -3,7 +3,7 @@ import crypto from "../assets/crypto-app.png";
 import keyword from "../assets/keyword-finder.png";
 import udayGoutam from "../assets/druday-goutam.png";
 import airaa from "../assets/airaa-clinic.png";
-
+import Gemini from "../assets/gemini_clone.jpg";
 import saiPrasuna from "../assets/sai-prasuna.png";
 import sridharOrtho from "../assets/sridhar-ortho.png";
 import SR from "../assets/sr-hospital.png";
@@ -17,23 +17,30 @@ import sanjivaniHomeo from "../assets/sanjivani-homeo.png";
 
 const ProjectsData = [
   {
+    id: 6,
+    title: "Gemini AI Clone",
+    category: "React js",
+    projectLink: "https://my-gemini-ai-clone.netlify.app/",
+    image: Gemini,
+  },
+  {
     id: 1,
     title: "Netflix GPT",
-    category: "react",
+    category: "React js",
     projectLink: "https://gpt-movies-finder.netlify.app/",
     image: netflix,
   },
   {
     id: 2,
     title: "Crypto Currency",
-    category: "react",
+    category: "React js",
     projectLink: "https://mycrypto-currency-app.netlify.app/",
     image: crypto,
   },
   {
     id: 3,
     title: "Keyword Finder",
-    category: "react",
+    category: "React js",
     projectLink: "https://keywordgenie.netlify.app/",
     image: keyword,
   },
